@@ -34,3 +34,31 @@ config.py # Загрузка настроек;
 utils.py # Вспомогательные функции;   
 config.ini # Конфигурационный файл;   
 requirements.txt # Зависимости   
+
+
+
+
+## 🔧 Установка и запуск
+
+### Быстрый старт (3 шага)
+
+#### 1️⃣ Скачайте проект
+
+```bash
+git clone https://github.com/ВАШ_ЛОГИН/inventory-system.git
+cd inventory-system
+Или просто скачайте ZIP-архив с GitHub и распакуйте.
+
+2️⃣ Установите зависимости
+```bash
+pip install -r requirements.txt
+Если нет pip, установите вручную:
+
+```bash
+pip install matplotlib qrcode Pillow openpyxl
+
+3️⃣ Запустите приложение
+```bash
+python main.py
+
+Готово! Откроется окно авторизации.
