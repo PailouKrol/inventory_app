@@ -1,0 +1,6 @@
+matplotlib>=3.5.0
+qrcode>=7.3.0
+Pillow>=9.0.0
+openpyxl>=3.0.0
+
+# pip install -r requirements.txt
